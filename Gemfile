@@ -1,9 +1,11 @@
 source 'https://rubygems.org'
+ruby '2.0.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails'
-gem 'bootstrap-sass', '>2.0.0'
-gem 'bcrypt-ruby', '3.0.1'
+gem 'rails', '4.0.4'
+gem 'bootstrap-sass', '2.3.2.0'
+gem 'sprockets', '2.11.0'
+gem 'bcrypt-ruby', '3.1.2'
 
 #dev testing
 group :development do
@@ -36,7 +38,7 @@ gem 'coffee-rails', '~> 4.0.0'
 # gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
+gem 'jquery-rails', '3.1.0'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
